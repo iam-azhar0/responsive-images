@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Image In HTML | Coding Shuttle</title>
+    <title>Responsive Image In HTML5 | Coding Shuttle</title>
 
     <style>
         * {
@@ -17,6 +17,11 @@
         }
         img {
             width: 100%;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+            font-weight: 500;
         }
     </style>
 </head>
@@ -24,6 +29,11 @@
 <body>
 
     <img src="./assets/family-dpr3.jpg" srcset="./assets/family-dpr1.jpg 1x, ./assets/family-dpr2.jpg 2x, ./assets/family-dpr3.jpg 3x" alt="family-dinner-photo">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga eos placeat neque quam blanditiis accusamus soluta consequuntur facere ad.</p>
+    <hr>
+
+    <img src="./assets/family-destop.jpg" srcset="./assets/family-mobile.jpg 768w, ./assets/family-tablet.jpg 992w, ./assets/family-destop.jpg 1200w" sizes="(max-width: 768px) 768w, (max-width: 992px) 992w, (min-width: 1200px) 1200w" alt="family-dinner-photo">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident voluptates sapiente consequuntur repudiandae reprehenderit nulla saepe atque, maxime nemo a!</p>
 
 </body>
 
